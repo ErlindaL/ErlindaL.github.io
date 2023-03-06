@@ -1,0 +1,83 @@
+h1, h2 {
+  font-family: 'Exo 2', sans-serif;
+  line-height: normal;
+}
+
+h3, p, li, figcaption {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 7em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(65, 64, 66);
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(113, 19, 49);
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+figcaption {
+  font-size: 1.3em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* NAV STYLES */
+nav {
+  margin-top: 1em;
+  text-align: center;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 18px;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgb(65, 64, 66);
+}
+nav a:link, nav a:visited {
+  color: rgb(65, 64, 66);
+}
+
+a:link, a:visited {
+  color: rgb(113, 19, 49);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+
+.thumbnail-padding-top {
+  margin-top: 30px;
+}
+
+.large-padding {
+  padding-top: 30px;
+}
